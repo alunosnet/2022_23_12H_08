@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "ComprasDeUmCliente";
+}
+
+<h2>ComprasDeUmCliente</h2>
+<form method="post">
+    Nome cliente: <input type="text" name="nome" /><br />
+    <input type="submit" value="Pesquisar" />
+</form>
+
+@if (ViewBag.compras != null)
+{
+    @ViewBag.compras.nome <span>|</span>
+    @ViewBag.compras.n_compras
+}

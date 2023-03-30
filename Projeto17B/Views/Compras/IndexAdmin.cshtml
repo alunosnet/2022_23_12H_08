@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Projeto17B.Models.Compras>
+
+@{
+    ViewBag.Title = "IndexAdmin";
+}
+
+<h2>IndexAdmin</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.roupa.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.roupa.Marca)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.utilizador.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.data_compra)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.valor_pagar)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.roupa.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.roupa.Marca)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.utilizador.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.data_compra)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.valor_pagar)
+        </td>
+        <td>
+
+            @Html.ActionLink("Details", "Details", new { id = item.CompraId }) |
+
+        </td>
+    </tr>
+}
+
+</table>

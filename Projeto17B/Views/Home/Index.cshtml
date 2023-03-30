@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>Trajados.com</h1>
+    <p class="lead">Encontre do melhor, ao melhor preço, em TRAJADOS. <br />Seja o melhor de si mesmo!!!</p>
+    <h5>Faça login para aceder a todas as areas do nosso site!!!</h5>
+    @if (Request.IsAuthenticated == false)
+    {
+        <h2> @Html.ActionLink("Registar", "Create", "Utilizadors")</h2>
+    }
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Comecando a comprar</h2>
+        @if (Request.IsAuthenticated)
+        {
+            <p>
+                Compre no nosso site!!
+                É so aceder ao menu comprar localizada na parte superior do site!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <p>
+                Sabia que se der login podera aceder a area de compras do nosso site?
+                Faca ja clicando em login!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <h4> @Html.ActionLink("Registar", "Create", "Utilizadors")</h4>
+        }
+    </div>
+    <div class="col-md-4">
+        <h2>Comecando a comprar</h2>
+        @if (Request.IsAuthenticated)
+        {
+            <p>
+                Compre no nosso site!!
+                É so aceder ao menu comprar localizada na parte superior do site!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <p>
+                Sabia que se der login podera aceder a area de compras do nosso site?
+                Faca ja clicando em login!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <h4> @Html.ActionLink("Registar", "Create", "Utilizadors")</h4>
+        }
+    </div>
+    <div class="col-md-4">
+        <h2>Comecando a comprar</h2>
+        @if (Request.IsAuthenticated)
+        {
+            <p>
+                Compre no nosso site!!
+                É so aceder ao menu comprar localizada na parte superior do site!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <p>
+                Sabia que se der login podera aceder a area de compras do nosso site?
+                Faca ja clicando em login!!!
+            </p>
+        }
+        @if (Request.IsAuthenticated == false)
+        {
+            <h4> @Html.ActionLink("Registar", "Create", "Utilizadors")</h4>
+        }
+    </div>
+</div>

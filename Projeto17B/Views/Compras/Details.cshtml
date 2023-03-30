@@ -1,0 +1,56 @@
+﻿@model Projeto17B.Models.Roupas
+
+@{
+    ViewBag.Title = "Compra";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Roupas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Marca)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Marca)
+        </dd>
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Preco)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Preco)
+        </dd>
+
+        <dd>
+            @{
+                string nome = Server.MapPath("~/Public/" + Model.ID + ".jpg");
+                if (System.IO.File.Exists(nome))
+                {
+                    <img src="@Url.Content(String.Format("~/Public/{0}.jpg",Model.ID))" width="150" />
+                }
+            }
+        </dd>     
+                    
+            
+    </dl>
+</div>
+<form method="post" action="/Compras/RegistaCompra">
+    @Html.HiddenFor(model => model.ID)
+    <input type="submit" value="Comprar"/>
+</form>
+@Html.ActionLink("Back to List", "Index")
+

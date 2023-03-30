@@ -1,0 +1,369 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D61BF0C-522E-40F1-8C0F-5C146CF5C6C7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Projeto_Mod17_n8</RootNamespace>
+    <AssemblyName>Projeto-Mod17-n8</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44364</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\admin.aspx" />
+    <Content Include="Admin\Consultas\Consultas.aspx" />
+    <Content Include="Admin\Roupa\adicionar.aspx" />
+    <Content Include="Admin\Roupa\ApagarRoupa.aspx" />
+    <Content Include="Admin\servicos.asmx" />
+    <Content Include="Admin\servicos.aspx" />
+    <Content Include="Admin\Utilizadores\ApagarUtilizadore.aspx" />
+    <Content Include="Admin\Utilizadores\bloquearutilizador.aspx" />
+    <Content Include="Admin\Utilizadores\EditarUtilizador.aspx" />
+    <Content Include="Admin\Utilizadores\historicoutilizador.aspx" />
+    <Content Include="Admin\Venda\Venda.aspx" />
+    <Content Include="App_Data\bd.mdf" />
+    <Content Include="App_Data\bd_log.ldf">
+      <DependentUpon>bd.mdf</DependentUpon>
+    </Content>
+    <Content Include="detalhesroupa.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="Logbook.txt" />
+    <Content Include="Admin\Roupa\EditarRoupa.aspx" />
+    <Content Include="Admin\Roupa\Roupas.aspx" />
+    <Content Include="Admin\Utilizadores\Utilizadores.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="Public\chartistJS\chartist.css" />
+    <Content Include="Public\chartistJS\chartist.js" />
+    <Content Include="Public\css\bootstrap-grid.css" />
+    <Content Include="Public\css\bootstrap-grid.min.css" />
+    <Content Include="Public\css\bootstrap-grid.rtl.css" />
+    <Content Include="Public\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Public\css\bootstrap-reboot.css" />
+    <Content Include="Public\css\bootstrap-reboot.min.css" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Public\css\bootstrap-utilities.css" />
+    <Content Include="Public\css\bootstrap-utilities.min.css" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Public\css\bootstrap.css" />
+    <Content Include="Public\css\bootstrap.min.css" />
+    <Content Include="Public\css\bootstrap.rtl.css" />
+    <Content Include="Public\css\bootstrap.rtl.min.css" />
+    <Content Include="Public\css\css.css" />
+    <Content Include="Public\Imagens\2.jpg" />
+    <Content Include="Public\Imagens\3.jpg" />
+    <Content Include="Public\Imagens\4.jpg" />
+    <Content Include="Public\jquery\jquery.min.js" />
+    <Content Include="Public\js\bootstrap.bundle.js" />
+    <Content Include="Public\js\bootstrap.bundle.min.js" />
+    <Content Include="Public\js\bootstrap.esm.js" />
+    <Content Include="Public\js\bootstrap.esm.min.js" />
+    <Content Include="Public\js\bootstrap.js" />
+    <Content Include="Public\js\bootstrap.min.js" />
+    <Content Include="Public\js\codigo.js" />
+    <Content Include="recuperarpassword.aspx" />
+    <Content Include="registo.aspx" />
+    <Content Include="User\user.aspx" />
+    <Content Include="User\Vendas\historico.aspx" />
+    <Content Include="User\Vendas\Vendas.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Consultas\Consultas.aspx.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Consultas\Consultas.aspx.designer.cs">
+      <DependentUpon>Consultas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Roupa\adicionar.aspx.cs">
+      <DependentUpon>adicionar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Roupa\adicionar.aspx.designer.cs">
+      <DependentUpon>adicionar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Roupa\ApagarRoupa.aspx.cs">
+      <DependentUpon>ApagarRoupa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Roupa\ApagarRoupa.aspx.designer.cs">
+      <DependentUpon>ApagarRoupa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\servicos.asmx.cs">
+      <DependentUpon>servicos.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Admin\servicos.aspx.cs">
+      <DependentUpon>servicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\servicos.aspx.designer.cs">
+      <DependentUpon>servicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\ApagarUtilizadore.aspx.cs">
+      <DependentUpon>ApagarUtilizadore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\ApagarUtilizadore.aspx.designer.cs">
+      <DependentUpon>ApagarUtilizadore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\bloquearutilizador.aspx.cs">
+      <DependentUpon>bloquearutilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\bloquearutilizador.aspx.designer.cs">
+      <DependentUpon>bloquearutilizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\EditarUtilizador.aspx.cs">
+      <DependentUpon>EditarUtilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\EditarUtilizador.aspx.designer.cs">
+      <DependentUpon>EditarUtilizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\historicoutilizador.aspx.cs">
+      <DependentUpon>historicoutilizador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\historicoutilizador.aspx.designer.cs">
+      <DependentUpon>historicoutilizador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Venda\Venda.aspx.cs">
+      <DependentUpon>Venda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Venda\Venda.aspx.designer.cs">
+      <DependentUpon>Venda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BaseDados.cs" />
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="Classes\ReCaptcha.cs" />
+    <Compile Include="Classes\UserLogin.cs" />
+    <Compile Include="detalhesroupa.aspx.cs">
+      <DependentUpon>detalhesroupa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="detalhesroupa.aspx.designer.cs">
+      <DependentUpon>detalhesroupa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.cs">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Venda.cs" />
+    <Compile Include="Models\Roupa.cs" />
+    <Compile Include="Models\Utilizador.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\Roupa\EditarRoupa.aspx.cs">
+      <DependentUpon>EditarRoupa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Roupa\EditarRoupa.aspx.designer.cs">
+      <DependentUpon>EditarRoupa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Roupa\Roupas.aspx.cs">
+      <DependentUpon>Roupas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Roupa\Roupas.aspx.designer.cs">
+      <DependentUpon>Roupas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\Utilizadores.aspx.cs">
+      <DependentUpon>Utilizadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Utilizadores\Utilizadores.aspx.designer.cs">
+      <DependentUpon>Utilizadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="recuperarpassword.aspx.cs">
+      <DependentUpon>recuperarpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="recuperarpassword.aspx.designer.cs">
+      <DependentUpon>recuperarpassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="registo.aspx.cs">
+      <DependentUpon>registo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registo.aspx.designer.cs">
+      <DependentUpon>registo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Vendas\historico.aspx.cs">
+      <DependentUpon>historico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Vendas\historico.aspx.designer.cs">
+      <DependentUpon>historico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Vendas\Vendas.aspx.cs">
+      <DependentUpon>Vendas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Vendas\Vendas.aspx.designer.cs">
+      <DependentUpon>Vendas.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.Master" />
+    <None Include="packages.config" />
+    <Content Include="Public\chartistJS\chartist.css.map" />
+    <Content Include="Public\css\bootstrap-grid.css.map" />
+    <Content Include="Public\css\bootstrap-grid.min.css.map" />
+    <Content Include="Public\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Public\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Public\css\bootstrap.css.map" />
+    <Content Include="Public\css\bootstrap.min.css.map" />
+    <Content Include="Public\css\bootstrap.rtl.css.map" />
+    <Content Include="Public\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Public\js\bootstrap.bundle.js.map" />
+    <Content Include="Public\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Public\js\bootstrap.esm.js.map" />
+    <Content Include="Public\js\bootstrap.esm.min.js.map" />
+    <Content Include="Public\js\bootstrap.js.map" />
+    <Content Include="Public\js\bootstrap.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58079</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44364/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

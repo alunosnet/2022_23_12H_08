@@ -1,0 +1,69 @@
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\Projeto MOD16.exe.config
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\Projeto MOD16.exe
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\Projeto MOD16.pdb
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.AccessControl.dll
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.Permissions.dll
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.Permissions.xml
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.AssemblyReference.cache
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto_MOD16.Form1.resources
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto_MOD16.Properties.Resources.resources
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.GenerateResource.cache
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CopyComplete
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.exe
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto MOD16.pdb
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto_MOD16.f_roupa.resources
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto_MOD16.Cliente.f_cliente.resources
+C:\Users\ESEN\Desktop\Projeto MOD16\Projeto MOD16\obj\Debug\Projeto_MOD16.Vendas.f_venda.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.AssemblyReference.cache
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.exe
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.pdb
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.exe.config
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.exe
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.pdb
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.AccessControl.dll
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Permissions.dll
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.AccessControl.xml
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Permissions.xml
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Cliente.f_cliente.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Form1.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.f_roupa.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Properties.Resources.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Vendas.f_venda.resources
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.GenerateResource.cache
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CoreCompileInputs.cache
+C:\Users\ESEN\Downloads\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CopyComplete
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.exe.config
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.exe
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\Projeto MOD16.pdb
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.AccessControl.dll
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Permissions.dll
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.AccessControl.xml
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Permissions.xml
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.AssemblyReference.cache
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.SuggestedBindingRedirects.cache
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Cliente.f_cliente.resources
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Form1.resources
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.f_roupa.resources
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Properties.Resources.resources
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto_MOD16.Vendas.f_venda.resources
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.GenerateResource.cache
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CoreCompileInputs.cache
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.csproj.CopyComplete
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.exe
+C:\Users\pjcfe\Downloads\Projeto MOD15 n8 (2)\Projeto MOD15 n8\Projeto MOD15 n8\Projeto MOD16\obj\Debug\Projeto MOD16.pdb
